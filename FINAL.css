@@ -1,0 +1,113 @@
+/*close to the custom Cheltenham that NYT uses  */
+@import url("https://fonts.googleapis.com/css?family=Domine");
+
+body {
+ padding: 5%;
+ background-image: url(https://images.ctfassets.net/6g4gfm8wk7b6/2UdeEPwgRsUMfqNOv66Phj/a1d09157561be8e444ee198dd1f691ec/Mental_Health_in_the_Holidays_Artwork.jpg);
+ background-attachment: fixed;
+ background-position: top center;
+ background-size: cover;
+}
+
+article {
+ font-family: "Domine";
+ font-size: 3vw;
+ line-height: 1.5;
+
+ margin-bottom: 50%;
+ padding: 10%;
+
+ color: #ddd;
+ background-color: rgba(0, 0, 0, 0.8);
+}
+
+p,li {
+ margin-bottom: 1em;
+}
+
+strong {
+ font-weight: normal;
+
+ text-transform: uppercase;
+}
+
+.dropcap {
+ font-size: 500%;
+ line-height: 0.88;
+
+ float: left;
+
+ margin-right: 10px;
+}
+
+h1 {
+ font-family: Helvetica;
+ font-size: 10vw;
+ font-weight: bold;
+ line-height: 0.8;
+
+ width: 50%;
+ margin-top: 2em;
+ margin-bottom: 1em;
+
+ color: rgb(0, 0, 0);
+ text-shadow: 0 0 2vw rgb(253, 253, 185);
+}
+h1 span {
+ font-size: 3vw;
+
+ position: relative;
+ top: 1em;
+
+ display: block;
+
+ color: rgb(0, 0, 0);
+ text-shadow: rgb(253, 253, 185);
+}
+
+h2 {
+ font-family: Helvetica;
+ font-size: 3vw;
+ font-weight: normal;
+
+ text-align: center;
+ letter-spacing: 0.3em;
+
+ color: rgb(253, 253, 185);
+}
+
+a {
+ color: rgb(253, 253, 185);
+}
+
+em {
+ font-style: italic;
+}
+
+ul li {
+ list-style-type: disc;
+ list-style-position: inside;
+}
+
+ol li {
+ list-style-type: square;
+}
+/* fancy list bullets for Firefox and Safari */
+ol li::marker {
+ color: rgb(146, 185, 124);
+ content: "►";
+
+  }
+  img {
+    max-width: 1000px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
+
+.list {
+    color:rgb(253, 253, 185)
+}
+
+img {
+    max-width: 1000px; /* Adjust the width as needed */
+    height: auto; /* Maintain the aspect ratio */
+  }
